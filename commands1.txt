@@ -1,0 +1,65 @@
+    1  ls
+    2  whoami
+    3  mkdir backend
+    4  cd backend
+    5  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/backend/requirements.txt
+    6  pip install -r requirements.txt
+    7  uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+    8  pip install -r requirements.txt
+    9  uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+   10  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/backend/main.py
+   11  curl -X 'GET'   'https://8000-jokergithu-llmfastapi-tt2a6noj3sg.ws-us107.gitpod.io/'   -H 'accept: application/json'
+   12  curl -X 'POST'   'https://8000-jokergithu-llmfastapi-tt2a6noj3sg.ws-us107.gitpod.io/get_gemini_completion'   -H 'accept: application/json'   -H 'Content-Type: application/x-www-form-urlencoded'   -d 'gemini_api_key=AIzaSyAUuzmDgpZ3Y70rOoUKrkpMfd-m6tzIswU&prompt=How%20old%20are%20you%20'
+   13  git add.
+   14  git add .
+   15  git commit -m "This is my first commit with api"
+   16  git push
+   17  history > list_of_commands.txt
+   18  uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+   19  cd backend
+   20  https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/backend/Dockerfile
+   21  docker build -t llm
+   22  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/backend/Dockerfile
+   23  docker build -t llm
+   24  docker build -t llm .
+   25  docker run -p 8000:8000 llm
+   26  cd ..
+   27  pwd
+   28  npx create-react-app frontend
+   29  cd frontend
+   30  npm start
+   31  cd $GITPOD_REPO_ROOT/frontend/src
+   32  pwd
+   33  ls
+   34  ls-la
+   35  ls -la
+   36  rm -f App.js
+   37  rm -f App.css
+   38  rm -f environment.js
+   39  rm -f  index.js
+   40  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/frontend/src/App.css
+   41  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/frontend/src/App.js
+   42  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/frontend/src/environment.js
+   43  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/frontend/src/index.js
+   44  cd $GITPOD_REPO_ROOT
+   45  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/update_url.sh
+   46  chmod +x update_url.sh
+   47  ./update_url.sh
+   48  cd $GITPOD_REPO_ROOT/frontend
+   49  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/frontend/Dockerfile
+   50  docker build -t react-frontend .
+   51  docker run -p 3000:3000 react-frontend
+   52  cd $GITPOD_REPO_ROOT
+   53  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/docker-compose.yml
+   54  docker compose build
+   55  docker compose up
+   56  git add.
+   57  git add .
+   58  git push
+   59  git add .
+   60  git commit -m “Created a chatbot”
+   61  git commit -m "created a chatbot"
+   62  git push
+   63  touch start.sh
+   64  ls
+   65  history >> commands1.txt
