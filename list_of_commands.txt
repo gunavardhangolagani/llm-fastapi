@@ -1,0 +1,48 @@
+    1  ls
+    2  whoami
+    3  mkdir backend
+    4  cd backend
+    5  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/backend/requirements.txt
+    6  pip install -r requirements.txt
+    7  uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+    8  pip install -r requirements.txt
+    9  uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+   10  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/backend/main.py
+   11  curl -X 'GET'   'https://8000-jokergithu-llmfastapi-tt2a6noj3sg.ws-us107.gitpod.io/'   -H 'accept: application/json'
+   12  curl -X 'POST'   'https://8000-jokergithu-llmfastapi-tt2a6noj3sg.ws-us107.gitpod.io/get_gemini_completion'   -H 'accept: application/json'   -H 'Content-Type: application/x-www-form-urlencoded'   -d 'gemini_api_key=AIzaSyAUuzmDgpZ3Y70rOoUKrkpMfd-m6tzIswU&prompt=How%20old%20are%20you%20'
+   13  git add.
+   14  git add .
+   15  git commit -m "This is my first commit with api"
+   16  git push
+   17  history > list_of_commands.txt
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+cd backend
+wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/backend/Dockerfile
+docker build -t llm .
+docker run -p 8000:8000 llm
+https://makersuite.google.com/u/2/app/apikey
+cd ..
+npx create-react-app frontend
+cd frontend
+npm start
+cd $GITPOD_REPO_ROOT/frontend/src
+rm -f App.js
+rm -f App.css
+rm -f environment.js
+rm -f  index.js
+wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/frontend/src/App.css
+wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/frontend/src/App.js
+wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/frontend/src/environment.js
+wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/frontend/src/index.js
+cd $GITPOD_REPO_ROOT
+wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/update_url.sh
+chmod +x update_url.sh
+./update_url.sh
+cd $GITPOD_REPO_ROOT/frontend
+wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/frontend/Dockerfile
+docker build -t react-frontend .
+docker run -p 3000:3000 react-frontend
+cd $GITPOD_REPO_ROOT
+wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/docker-compose.yml
+docker compose build
+docker compose up
