@@ -40,6 +40,8 @@ You can set up the project using either manual installation or Docker.
   
 ```
 git clone https://github.com/gunavardhangolagani/llm-fastapi.git
+```
+```
 cd backend
 ```
 
