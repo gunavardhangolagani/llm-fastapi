@@ -34,7 +34,7 @@ You can set up the project using either manual installation or Docker.
 ### Backend Setup
 - Clone the repository
 ```
-git clone <repo-url>
+git clone https://github.com/gunavardhangolagani/llm-fastapi.git
 cd backend
 ```
 - Install dependencies
